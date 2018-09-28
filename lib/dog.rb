@@ -13,7 +13,7 @@ class Dog
  
  def self.all 
    @@all.each do |dog|
-     @name
+     return @name
    end
  end 
  
